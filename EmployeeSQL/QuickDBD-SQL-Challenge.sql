@@ -4,7 +4,7 @@
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
-DROP TABLE IF EXISTS empployees;
+DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS salaries;
 DROP TABLE IF EXISTS titles;
 
@@ -18,7 +18,7 @@ CREATE TABLE "departments" (
 
 CREATE TABLE "dept_emp" (
     "emp_no" int   NOT NULL,
-    "title" varchar   NOT NULL,
+	"dept_no" varchar Not Null,
     "from_date" varchar   NOT NULL,
     "to_date" varchar   NOT NULL
 );
